@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4ed">
+  <meta name="description" content="Una palestra d’esame guidata per imparare a progettare e realizzare siti web per la valorizzazione dei beni culturali.">
+  <title>CulturaLab — Palestra d’esame</title>
+  <link rel="icon" href="./icons/mark.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Vai al contenuto principale</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navigazione principale">
+      <a class="brand" href="#home" data-view="home" aria-label="CulturaLab — vai alla panoramica">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-copy"><strong>CulturaLab</strong><small>PALESTRA D’ESAME</small></span>
+      </a>
+      <div class="sidebar-section-label">IL TUO SPAZIO</div>
+      <nav class="primary-nav" aria-label="Sezioni">
+        <button class="nav-link is-active" type="button" data-view="home"><span class="nav-icon" aria-hidden="true">⌂</span><span>Panoramica</span></button>
+        <button class="nav-link" type="button" data-view="journey"><span class="nav-icon" aria-hidden="true">↗</span><span>Percorso guidato</span><span class="nav-count">04</span></button>
+        <button class="nav-link" type="button" data-view="lab"><span class="nav-icon" aria-hidden="true">&lt;/&gt;</span><span>Laboratorio</span></button>
+        <button class="nav-link" type="button" data-view="traces"><span class="nav-icon" aria-hidden="true">▤</span><span>Tracce d’esame</span></button>
+        <button class="nav-link" type="button" data-view="exam"><span class="nav-icon" aria-hidden="true">◷</span><span>Simulazione</span></button>
+        <button class="nav-link" type="button" data-view="oral"><span class="nav-icon" aria-hidden="true">◌</span><span>Colloquio orale</span></button>
+        <button class="nav-link" type="button" data-view="projects"><span class="nav-icon" aria-hidden="true">▧</span><span>Progetti del corso</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="local-status"><span class="status-dot"></span><span>Progressi salvati su questo PC</span></div>
+        <button class="text-button" data-action="reset-progress" type="button">Azzera i progressi</button>
+      </div>
+    </aside>
+
+    <section class="workspace">
+      <header class="topbar">
+        <div class="breadcrumb"><span>Il tuo spazio</span><span class="breadcrumb-separator">/</span><strong id="current-section">Panoramica</strong></div>
+        <div class="topbar-actions">
+          <span class="saved-badge"><span class="status-dot"></span> Salvataggio locale attivo</span>
+          <button class="btn btn-secondary btn-small" type="button" data-action="install-app">Installa</button>
+          <button class="avatar-button" type="button" aria-label="Profilo locale: ospite">O</button>
+        </div>
+      </header>
+      <main id="main-content" tabindex="-1"></main>
+      <footer class="app-footer">
+        <span>Una missione alla volta. Le tre tracce ufficiali hanno pari dignità.</span>
+        <a href="https://quiz-platform-format.netlify.app/webpages/progetti" target="_blank" rel="noreferrer">Progetti e materiali del corso <span aria-hidden="true">↗</span></a>
+      </footer>
+    </section>
+  </div>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="CulturaLab">
+  <rect width="128" height="128" rx="28" fill="#1f3044"/>
+  <path d="M36 88V69a8 8 0 0 1 8-8h3V50a8 8 0 0 1 8-8h3V31a8 8 0 0 1 8-8" fill="none" stroke="#f2b18e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M58 97V79a8 8 0 0 1 8-8h5V61a8 8 0 0 1 8-8h4V41a8 8 0 0 1 8-8" fill="none" stroke="#fffefa" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".92"/>
+</svg>
